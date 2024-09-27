@@ -43,7 +43,7 @@ nav ul li a:hover {
 #home {
     max-width: 50%;
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
     padding: 20px;
 }
 
@@ -56,6 +56,16 @@ nav ul li a:hover {
     gap: 20px; /* Add space between the image and the text */
 }
 
+.intro-text {
+    max-width: 700px;
+    text-align: left;
+}
+
+.intro-text p {
+    padding: 10px 10px;
+    line-height: 1.6;
+}
+
 .profile-picture {
     border-radius: 5%;
     width: 400px;
@@ -64,12 +74,38 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
+#education {
+    padding-left: 20px; /* Add space on the left */
+    padding-right: 20px; /* Add space on the right */
+    max-width: 1200px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+#education ul {
+    list-style-position: inside; /* Ensures bullets are inside the padding */
+}
+
+#education h3 {
+    margin-top: 20px;
+}
+
 footer {
     background-color: #333;
     color: #fff;
-    text-align: center;
-    padding: 10px 0;
+    text-align: left;
+    padding: 20px 20px;
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+footer a {
+    color: #ADD8E6; /* Light blue color */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #87CEFA; /* Even lighter blue on hover */
 }
