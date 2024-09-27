@@ -51,9 +51,9 @@ nav ul li a:hover {
     display: flex;
     align-items: center; /* Align items vertically centered */
     justify-content: center; /* Center the content horizontally */
-    max-width: 1000px; /* Set a maximum width for the container */
+    max-width: 100%; /* Set a maximum width for the container */
     margin: 0 auto; /* Center the container */
-    gap: 20px; /* Add space between the image and the text */
+    gap: 2%; /* Add space between the image and the text */
 }
 
 .intro-text {
@@ -68,8 +68,8 @@ nav ul li a:hover {
 
 .profile-picture {
     border-radius: 5%;
-    width: 400px;
-    height: 400px;
+    width: 50%;
+    height: auto;
     object-fit: cover;
     margin-bottom: 20px;
 }
@@ -89,21 +89,19 @@ nav ul li a:hover {
     margin-top: 20px;
 }
 
-.flex-container {
+.edu-container {
     display: flex; /* Use flexbox for horizontal alignment */
     align-items: center;
+    justify-content: center;
+    max-width: 100%;
     margin: 0;
     padding: 20px;
+    gap: 3%;
 }
 
 .gt-logo {
-    width: 300px; /* Set the width of the image */
+    width: 50%; /* Set the width of the image */
     height: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Space between image and text */
-}
-
-.text-content {
-    max-width: 800px; /* Optional: limit the text width for readability */
 }
 
 
