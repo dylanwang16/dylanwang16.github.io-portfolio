@@ -40,6 +40,10 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+nav ul li:last-child {
+    margin-right: 0;
+}
+
 #home {
     max-width: 50%;
     margin: 0 auto;
@@ -109,7 +113,7 @@ nav ul li a:hover {
     align-items: center; /* Vertically center the items */
     justify-content: center;
     max-width: 100%;
-    padding: 20px; /* Add padding for space around content */
+    padding-top: 10px; /* Add padding for space around content */
     margin: 20px 20%;
 }
 
@@ -129,7 +133,8 @@ nav ul li a:hover {
 
 .projects-title {
     text-align: center;
-    padding: 20px;
+    padding-top: 20px;
+
 }
 
 #projects ul {
