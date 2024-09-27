@@ -43,8 +43,17 @@ nav ul li a:hover {
 #home {
     max-width: 50%;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     padding: 20px;
+}
+
+.intro-container {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    justify-content: center; /* Center the content horizontally */
+    max-width: 1000px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    gap: 20px; /* Add space between the image and the text */
 }
 
 .profile-picture {
