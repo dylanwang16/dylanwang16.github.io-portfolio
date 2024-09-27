@@ -104,6 +104,43 @@ nav ul li a:hover {
     height: auto; /* Maintain aspect ratio */
 }
 
+.project-container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Vertically center the items */
+    justify-content: center;
+    max-width: 100%;
+    padding: 20px; /* Add padding for space around content */
+    margin: 20px 20%;
+}
+
+.vip-logo {
+    width: 50%; /* Set the width of the VIP logo image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.project-text {
+    max-width: 800px; /* Optional: limit the text width for readability */
+}
+
+.project-text p {
+    padding-bottom: 20px;
+}
+
+.projects-title {
+    text-align: center;
+    padding: 20px;
+}
+
+#projects ul {
+    list-style-position: inside;
+}
+
+.role {
+    max-width: 55%;
+    margin: 20px auto;
+}
+
 
 footer {
     background-color: #333;
