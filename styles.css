@@ -108,6 +108,23 @@ nav ul li:last-child {
     height: auto; /* Maintain aspect ratio */
 }
 
+.skills {
+    max-width: 90%; /* Limit the width of the skills section */
+    margin: 20px auto; /* Center the section horizontally */
+    text-align: left; /* Align text to the left */
+    padding: 10px; /* Add padding for spacing */
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.skills h3 {
+    margin-bottom: 10px;
+}
+
+.skills p {
+    line-height: 1.6; /* Increase line height for readability */
+    font-size: 1rem; /* Adjust the font size for balance */
+}
+
 .project-container {
     display: flex; /* Use flexbox for horizontal alignment */
     align-items: center; /* Vertically center the items */
@@ -134,7 +151,6 @@ nav ul li:last-child {
 .projects-title {
     text-align: center;
     padding-top: 20px;
-
 }
 
 #projects ul {
@@ -144,6 +160,45 @@ nav ul li:last-child {
 .role {
     max-width: 55%;
     margin: 20px auto;
+}
+
+.experience-title {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.experience-container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Vertically center the items */
+    justify-content: center;
+    max-width: 100%;
+    padding-top: 10px; /* Add padding for space around content */
+    margin: 20px 20%;
+}
+
+.experience-container img {
+    width: 50%; /* Adjust the image size */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Optional: round the corners */
+}
+
+.experience-text {
+    max-width: 65%; /* Ensure text stays within bounds */
+    text-align: left; /* Align text to the left */
+}
+
+.experience-img-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Ensure even spacing between images */
+    align-items: center; /* Vertically align images */
+    gap: 20px; /* Add space between images */
+    max-width: 70%; /* Increase the container width */
+    margin: 20px auto; /* Center the container horizontally */
+}
+
+.experience-img {
+    width: 48%; /* Make images larger while fitting side by side */
+    height: auto; /* Maintain aspect ratio */
 }
 
 
